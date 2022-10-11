@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
   let deadline = "2022-10-12";
 
   changeModalState(modalState);
-  modals(); //где то ошибка
+  modals();
   tabs(".glazing_slider", ".glazing_block", ".glazing_content", "active");
   tabs(
     ".decoration_slider",
